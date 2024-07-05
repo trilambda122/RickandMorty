@@ -10,6 +10,10 @@
 		356E0EE02C387CA80035131D /* RMService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356E0EDF2C387CA80035131D /* RMService.swift */; };
 		356E0EE22C387CBE0035131D /* RMRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356E0EE12C387CBE0035131D /* RMRequest.swift */; };
 		356E0EE42C387D720035131D /* RMEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356E0EE32C387D720035131D /* RMEndpoint.swift */; };
+		356E0EE62C38832A0035131D /* RMOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356E0EE52C38832A0035131D /* RMOrigin.swift */; };
+		356E0EE82C3883AC0035131D /* RMSingleLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356E0EE72C3883AC0035131D /* RMSingleLocation.swift */; };
+		356E0EEA2C3884D50035131D /* RMCharacterStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356E0EE92C3884D50035131D /* RMCharacterStatus.swift */; };
+		356E0EEC2C3884FE0035131D /* RMCharacterGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356E0EEB2C3884FE0035131D /* RMCharacterGender.swift */; };
 		35A1A12D2C3864320041FEDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A1A12C2C3864320041FEDB /* AppDelegate.swift */; };
 		35A1A12F2C3864320041FEDB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A1A12E2C3864320041FEDB /* SceneDelegate.swift */; };
 		35A1A1312C3864320041FEDB /* RMTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A1A1302C3864320041FEDB /* RMTabBarController.swift */; };
@@ -28,6 +32,10 @@
 		356E0EDF2C387CA80035131D /* RMService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMService.swift; sourceTree = "<group>"; };
 		356E0EE12C387CBE0035131D /* RMRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMRequest.swift; sourceTree = "<group>"; };
 		356E0EE32C387D720035131D /* RMEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEndpoint.swift; sourceTree = "<group>"; };
+		356E0EE52C38832A0035131D /* RMOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMOrigin.swift; sourceTree = "<group>"; };
+		356E0EE72C3883AC0035131D /* RMSingleLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSingleLocation.swift; sourceTree = "<group>"; };
+		356E0EE92C3884D50035131D /* RMCharacterStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterStatus.swift; sourceTree = "<group>"; };
+		356E0EEB2C3884FE0035131D /* RMCharacterGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterGender.swift; sourceTree = "<group>"; };
 		35A1A1292C3864320041FEDB /* RickAndMority.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMority.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35A1A12C2C3864320041FEDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35A1A12E2C3864320041FEDB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +115,10 @@
 				35A1A1472C3869EC0041FEDB /* RMLocation.swift */,
 				35A1A1492C386A040041FEDB /* RMCharacter.swift */,
 				35A1A14B2C386A1B0041FEDB /* RMEpisode.swift */,
+				356E0EE52C38832A0035131D /* RMOrigin.swift */,
+				356E0EE72C3883AC0035131D /* RMSingleLocation.swift */,
+				356E0EE92C3884D50035131D /* RMCharacterStatus.swift */,
+				356E0EEB2C3884FE0035131D /* RMCharacterGender.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -228,6 +240,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				356E0EE62C38832A0035131D /* RMOrigin.swift in Sources */,
+				356E0EE82C3883AC0035131D /* RMSingleLocation.swift in Sources */,
+				356E0EEA2C3884D50035131D /* RMCharacterStatus.swift in Sources */,
+				356E0EEC2C3884FE0035131D /* RMCharacterGender.swift in Sources */,
 				35A1A1512C386B6F0041FEDB /* RMLocationViewController.swift in Sources */,
 				35A1A14C2C386A1B0041FEDB /* RMEpisode.swift in Sources */,
 				35A1A1312C3864320041FEDB /* RMTabBarController.swift in Sources */,
