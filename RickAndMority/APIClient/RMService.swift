@@ -13,6 +13,7 @@ final class RMService {
     
     private init(){}
     
+    // Error codes
     enum RMServiceError: Error{
         case failedToCreateRequest
         case failedToGetData
@@ -25,7 +26,7 @@ final class RMService {
     ///   - completion: Callback with Data
     public func execute<T: Codable>(_ request:RMRequest,
                                     expecting type: T.Type,
-                                    completion: @escaping (Result<String,Error>)-> Void){
+                                    completion: @escaping (Result<T, Error>)-> Void){
         guard let urlRequest = self.request(from: request)else{
             completion(.failure(RMServiceError.failedToCreateRequest))
             return
@@ -36,8 +37,8 @@ final class RMService {
             return
         }
             do{
-                let json = try JSONSerialization.jsonObject(with: data)
-                print(String(describing: json))
+                let result = try JSONDecoder().decode(type.self, from:data)
+                completion(.success(result))
             }
             catch{
                 completion(.failure(error))
